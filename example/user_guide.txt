@@ -1,0 +1,7 @@
+cd to directory
+Install ruby version 2.3.0
+Install library manager: `gem install bundler`
+Install libraries: `bunlde install`
+Execute test with: `cucumber -p default -t @regression` *
+
+* default options are set BROWSER=chrome, retry 1

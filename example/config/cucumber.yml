@@ -1,0 +1,1 @@
+default: FIG_NEWTON_FILE=default.yml -r features -r features/step_definitions -f pretty -f rerun -o "report\rerun\failed_tests.txt" -f html -o "report/local - <%= Time.now.strftime("%H-%M_%d-%m-%Y") %>.html"
